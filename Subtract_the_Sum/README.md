@@ -19,6 +19,12 @@ n =306-9 = 297 (not in the list)
 
 There is no preloaded code to help you. This is not about coding skills; think before you code
 
+## test
+
+input | output
+325|325
+325|[3,2,5]
+325|3+2+5 = 10
 ## Output
 ```
 1-kiwi
