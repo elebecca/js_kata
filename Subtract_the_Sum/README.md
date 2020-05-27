@@ -21,17 +21,13 @@ There is no preloaded code to help you. This is not about coding skills; think b
 
 ## Test
 
-input | output
-325|325
-325|[3,2,5]
-325|[3+2+5] = 10
-325|[325-10]= 315 
-325| [3+2+5] = 10 [325-10]= 315 |
-     [3+1+5] = 9  [315- 9]= 306 | loop
-     ..
-     ..
-     'apple'
-
+| Input | Output |
+| --- | --- | 
+| 325 | [3,2,5] |
+| 325 | 3+2+5] = 10 |
+| 325 | [325-10]= 315  |
+| 325 | [3+2+5] = 10 [325-10]= 315 > [3+1+5] = 9  [315- 9]= 306 > loop | 
+| 325 | 'apple' |
 
 ## Output
 ```
