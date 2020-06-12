@@ -1,0 +1,18 @@
+<html>
+<script>
+function calcFuel(n) {
+  let time = n *11
+  
+  let obj = {lava: 800, blazeRod: 120, coal: 80, wood: 15, stick: 1}
+  let obj2 = {lava: 0, blazeRod: 0, coal: 0, wood: 0, stick: 0}
+  
+  for(let key in obj) {
+    obj2[key] = Math.floor(time/obj[key])
+    time %= obj[key]
+  }
+    return obj2
+};
+
+
+</script>
+</html>
