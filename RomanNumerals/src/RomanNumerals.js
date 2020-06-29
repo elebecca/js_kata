@@ -1,9 +1,11 @@
 function RomanNumerals() {};
 
 RomanNumerals.prototype.fromNumber = function(n) {
-  if (2 === n ) {
-    return "II";
+  var result = "";
+  while (n > 0) {
+    result +="I";
+    --n;
   }
-  return "I";
+return result
 }
 
